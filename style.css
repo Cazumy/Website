@@ -249,4 +249,9 @@ body {
     .prev, .next {top: 30%;}
     .search {left: 40px;}
         .search input {width: 320px; }
+            .form-popup{width:200px;
+                    max-height:100vh;
+                    overflow-y:scroll;}
+    .open-button {width: 174px;}
+    .share{margin-top:32px;}
 }
