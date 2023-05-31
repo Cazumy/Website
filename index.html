@@ -56,7 +56,7 @@
             </div>
         </div>
         <button class="open-button" onclick="openForm()">Оставьте отзыв!</button>
-        <div class="form-popup" id="myForm" name="feedback" method="POST" action="form.php">
+        <div class="form-popup" id="myForm" name="feedback" method="POST">
             <form class="form-container">
                 <h1>Оставьте отзыв!</h1>
                 <label for="username"><b>Ваше имя</b></label>
@@ -65,7 +65,7 @@
                 <input type="text" name="email" required>
                 <label for="text"><b>Сообщение:</b></label>
                 <input type="text" name="text" required>
-                <input class="btn" name="send" value="Отправить" >
+                <button class="btn" name="send">Отправить</button>
                 <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
             </form>
         </div>
